@@ -1,0 +1,465 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    background-color: #545b60;
+    width: 100%;
+    height:61px;
+    /* position: fixed; */
+}
+.header h1{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+.logo{
+    width: auto;
+    font-size: 16px;
+    margin-top: 8px;
+    /* position :absolute; */
+    /* top: 10px; */
+    color: white;
+    display: inline-block;
+    /* float: left; */
+}
+.menu{
+width: 30%;
+/* display: inline-block; */
+background-color: lightskyblue;
+color:white;
+float: right;
+clear: both;
+text-align: center;
+padding: 16px 0;
+}
+
+/* .menu ul{
+    list-style: none;
+} */
+/* .menu ul li:hover{
+    background-color: #545b60;
+} */
+
+.menu ul li a{
+    text-decoration: none;
+    color:white
+}
+.menu ul li{
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+}
+.menu ul li ul{
+    display: none;
+    background-color:transparent;
+}
+ 
+.menu ul li:hover ul{
+    position: absolute;
+    top: 100%;
+    right:0;
+    display: block;
+}
+.menu ul li ul li ul{
+    display: none !important;
+}
+
+.menu ul li ul li:hover ul{
+    display: block !important;
+    top: 0;
+    left: 50%;
+}
+
+.background{
+    border:0.1px solid;
+    width: 99.9%;
+    /* clear: both; */
+    height: 900px;
+    background-size: cover;
+    /* position: absolute; */
+    /* z-index: -1;*/
+    background-image: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg');
+}
+
+.text{
+    text-align: center;
+    margin-top: 350px;
+    font-family: 'Sacramento', sans-serif;
+    font-weight: normal;
+    /* font-family:default; */
+}
+.text h1{
+    color: #fff;
+}
+.btn{
+    border-radius: 100px;
+    padding:10px;
+    border:2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    transition:0.5s;
+}
+
+.btn:hover{
+    background-color: #2dc997;
+    border-color: #2dc997;
+    padding: 10px 30px;
+    color: white;
+} 
+.button{
+    text-align: center;
+}
+
+.about{
+    width: 80%;
+    clear: both;
+    height: 200px;
+    text-align: justify;
+}
+
+.about-txt{
+    width: 50%;
+    height: auto;
+    margin-left: 100px;
+}
+.about-main{
+    width: 70%;
+    height: auto;
+    text-align: justify;
+}
+
+.about1{
+    margin: 10px 0;
+    width: 70%;
+    height: auto;
+    text-align: justify;
+}
+
+.about2{
+    margin: 10px 0; 
+    width: 70%;
+    height: auto;
+    text-align: justify;
+}
+.about3{
+    margin: 10px 0;
+    width: 70%;
+    height: auto;
+    text-align: justify;
+}
+.about{
+    margin: 50px 0;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+}
+.about-img{
+    float: right;
+    width: 40%;
+    height: auto;
+}
+.about > div > div > img {
+    width:400px;
+    height: auto;
+}
+/* -------------------------------------------------------- */
+.facts{
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.facts1{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.facts2 > div{
+    padding: 50px 100px 100px;
+    display: inline-block;
+}
+
+.service{
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.service1{
+    padding: 50px 0;
+}
+.service2{
+    width: 100%;
+}
+.service2 > div {
+    border: 1px solid #e6e6e6;
+    position: relative;
+    margin: 10px;
+    display: inline-block;
+    width: 400px;
+    height: 220px;
+    background-color:#fafafa;
+}
+.service2 > div > h3 {
+    padding-top: 80px;
+}
+
+
+.service2 > div > p {
+    padding: 0 5px;
+    text-align: center; 
+}
+
+/* ------------------------------------------------------------------------- */
+
+.call-action{
+    height: auto;
+    padding: 100px 20px;
+    background-size: cover;
+    background-image: url('https://bootstrapmade.com/demo/templates/Regna/assets/img/call-to-action-bg.jpg');
+}
+.call-action1{
+    display: inline-block;
+    width: 60%;
+    margin-left: 150px;
+    color: black;
+}
+
+
+.btn2{
+    /* width: 200px; */
+    border-radius: 100px;
+    padding:10px;
+    border:2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    transition:0.5s;
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.btn2:hover{
+    background-color: #2dc997;
+    border-color: #2dc997;
+    padding: 10px 30px;
+    color: white;
+} 
+
+
+
+
+
+/* ----- logo of services --------- */
+
+.service_img {
+    height: 40px;
+    width: 40px;
+    /* background-color: #2dc997; */
+    border-radius: 30%;
+    padding: 10px;
+    position: absolute;
+    left:170px;
+    top: -23px;
+}
+
+/* --------------portfolio--------------------- */
+.portfolio{
+    width: 100%;
+    height:auto;
+    background-color: #f7f7f7;
+}
+
+
+.portfolio1{
+    /* margin-top: 20px; */
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.portfolio_button{
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.portfolio_button > button{
+    margin:25px 10px;
+}
+
+.portfolio_img{
+    background-color: #f7f7f7;
+    height: auto;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px;
+}
+
+.portfolio_img div {
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    margin: 20px;
+}
+.portfolio_img img {
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+/* ------------------------------------------- */
+
+
+/* for underline animation in menu iteams */
+
+li{
+    width: max-content;
+    font-size: default;
+    position: relative;
+    cursor:default;
+}
+li::after{
+    content:"";
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width:100%;;
+    left: 0;
+    background-color: #000;
+    transition: 0.3s;
+    transition-timing-function:ease-in-out;
+    transform: scalex(0);
+}
+li:hover::after{
+    transform:scalex(1.1);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* .team{
+    height: auto;
+    width: auto;
+} */
+
+.team1{
+    text-align: center;
+    padding: 50px;
+}
+.team_img{
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+.team_img > div {
+    display: inline-block;
+    text-align: center;
+    height: 400px;
+    width: 260px;
+    padding: 0 15px;
+}
+.team_img > div > img {
+    height: 260px;
+    width: 260px;
+    padding-bottom: 20px;
+}
+
+/* ------------------------------ */
+.contact{
+    text-align: center;
+    background-color: #f7f7f7;
+    height: auto;
+    padding: 50px 0;
+    clear: both;
+}
+ 
+.contact h1{
+    padding: 10px 0;
+}
+
+.contact > p{
+    padding-bottom: 60px;
+}
+ 
+.contact_info {
+    height: 200px;
+    width: 100%;
+}
+
+.contact_info1{
+    /* width: 40%; */
+    /* height: 100%; */
+    float: left;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+.c_form{
+    width: 100%;
+}
+
+.contact_info1  p {
+    padding: 5px;
+    display: inline-block;
+}
+
+.contact_form{
+    width: 40%;
+    height: 100%;
+    float: right;
+    margin-right: 150px;
+}
+
+.contact_logo > img{
+    height: 30px;
+    width: 30px;
+}
+
+.contact_logo{
+    padding-top:10px;
+    clear: both;
+    float: left;
+}
+
+.contact_form1{
+    padding-top: 25px;
+}
+
+.contact_info2 img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.contact_info2{ 
+    text-align: justify;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    padding: 30px;    
+    margin-top: 10px;
+    background-color: #343b40;
+    color: white;
+    clear: both;
+    font-weight: bold;
+}
+footer > p {
+    padding: 5px 0;
+}
